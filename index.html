@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-Up</title>
+</head>
+
+<body>
+    <div class="img">
+        <div class="overlay">
+            <div class="card">
+                <h1>Milky Way</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class=" flex">
+
+            <p class="container introduction">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus et
+                illum quasi
+                harum distinctio? Eum dolor magni provident sit minima reiciendis id dicta culpa minus?</p>
+            <div class="form-div">
+                <div class="container">
+                    <form action="/wow" method="post">
+                        <fieldset>
+                            <legend>Let's do this!</legend>
+                            <div class="input-div">
+                                <label for="firstName">FIRST NAME</label>
+                                <input placeholder='David' type="text" id="firstName" required>
+                            </div>
+                            <div class="input-div">
+                                <label for="lastName">Last NAME</label>
+                                <input placeholder='Beckham' type="text" id="lastName" required>
+                            </div>
+                            <div class="input-div">
+                                <label for="email">EMAIL</label>
+                                <input placeholder='first@domain.com' type="email" id="email" required>
+                            </div>
+                            <div class="input-div">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input placeholder='123-456-7890' type="number" id="phone" required>
+                            </div>
+                            <div class="input-div">
+                                <label for="password">PASSWORD</label>
+                                <input id="password" placeholder='12345678' min=8 type="password" id="password"
+                                    required>
+                            </div>
+                            <div class="input-div">
+                                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                <input id="confirm_password" placeholder='12345678' type="password" id="confirmPassword"
+                                    required>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <input type="submit" value="Create Account">
+                </div>
+            </div>
+            <p class="already">Already have an account? <a href="#">Log in</a></p>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

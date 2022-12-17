@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Unbounded', cursive;
+    display: flex;
+}
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+.img{
+    
+    width: 35vw;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1580432551600-8c9768628a9e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    height: 100vh;
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.115);
+}
+
+.card{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.533);
+    text-align: center;
+    position: relative;
+    top:15rem;
+    padding: 30px 0;
+}
+
+.card h1{
+    font-size:2.5em;
+}
+
+.right{
+    background-color: black;
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    width: 60vw;
+
+}
+
+.introduction{
+    color: white;
+    font-size: 1.2em;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+}
+
+legend{
+    color:white;
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+}
+
+.form-div{
+    width: 65vw;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    padding: 50px 0;
+}
+
+.input-div{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-div input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color:white;
+    font-size: 1.4em;
+    padding:10px
+}
+
+label{
+    font-size: .8em;
+    color: rgb(215, 214, 214);
+}
+
+input[type=submit]{
+    background-color: rgb(97, 147, 228);
+    color:white;
+    align-self: flex-start;
+    padding: 20px 50px;
+    font-size: 1.5em;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.already{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+input:not(:placeholder-shown):not(:focus):invalid {
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+}
